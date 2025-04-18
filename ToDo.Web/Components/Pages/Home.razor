@@ -1,0 +1,60 @@
+﻿@page "/"
+@using Shared.Models
+@inject TodoApi todoApi
+@rendermode @(new InteractiveServerRenderMode(prerender:false))
+
+<div class="container">
+    <h1 class="text-center fw-bolder m-5">Todo</h1>
+    <EditForm Model="newItem" OnValidSubmit="AddTodo">
+        <div class="input-group mb-3">
+            <div class="form-floating">
+                <InputText id="name" @bind-Value="newItem.Name" class="form-control" placeholder="" />
+                <label for="name">New task</label>
+            </div>
+            <button type="submit" class="btn btn-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                </svg>
+            </button>
+        </div>
+    </EditForm>
+    @foreach (var item in items)
+    {
+        <div class="row shadow-sm border border-light rounded p-1 m-0 mb-2 align-items-center justify-content-center">
+            <div class="col-10 col-md-11">
+                <p class="mx-1 mb-0">@item.Name</p>
+            </div>
+            <div class="col-2 col-md-1 pe-0">
+                <button class="btn btn-danger w-100">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+                        <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    }
+</div>
+@code {
+    public List<TodoItem> items { get; set; } = new();
+    public TodoInput newItem { get; set; } = new();
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        items = await todoApi.GetTasks();
+    }
+
+    public async Task AddTodo()
+    {
+        if (newItem.Name != null)
+        {
+            await todoApi.AddTask(newItem.Name);
+            items = await todoApi.GetTasks();
+        }
+    }
+
+    public class TodoInput
+    {
+        public string? Name { get; set; }
+    }
+}

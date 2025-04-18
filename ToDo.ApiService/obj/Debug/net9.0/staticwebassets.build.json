@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "B3S6krH6Ygh2egqNHz0ocRXHSP9C68VZU8vCAsjuZHM=",
+  "Source": "ToDo.ApiService",
+  "BasePath": "_content/ToDo.ApiService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
