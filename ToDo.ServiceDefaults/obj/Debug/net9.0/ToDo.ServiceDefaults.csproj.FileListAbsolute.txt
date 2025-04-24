@@ -10,3 +10,16 @@ C:\Users\mjnso\source\repos\ToDo\ToDo.ServiceDefaults\obj\Debug\net9.0\ToDo.Serv
 C:\Users\mjnso\source\repos\ToDo\ToDo.ServiceDefaults\obj\Debug\net9.0\refint\ToDo.ServiceDefaults.dll
 C:\Users\mjnso\source\repos\ToDo\ToDo.ServiceDefaults\obj\Debug\net9.0\ToDo.ServiceDefaults.pdb
 C:\Users\mjnso\source\repos\ToDo\ToDo.ServiceDefaults\obj\Debug\net9.0\ref\ToDo.ServiceDefaults.dll
+C:\Users\mjnso\OneDrive\Documents\GitHub\Todo\ToDo.ServiceDefaults\bin\Debug\net9.0\ToDo.ServiceDefaults.deps.json
+C:\Users\mjnso\OneDrive\Documents\GitHub\Todo\ToDo.ServiceDefaults\bin\Debug\net9.0\ToDo.ServiceDefaults.dll
+C:\Users\mjnso\OneDrive\Documents\GitHub\Todo\ToDo.ServiceDefaults\bin\Debug\net9.0\ToDo.ServiceDefaults.pdb
+C:\Users\mjnso\OneDrive\Documents\GitHub\Todo\ToDo.ServiceDefaults\obj\Debug\net9.0\ToDo.ServiceDefaults.csproj.AssemblyReference.cache
+C:\Users\mjnso\OneDrive\Documents\GitHub\Todo\ToDo.ServiceDefaults\obj\Debug\net9.0\ToDo.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mjnso\OneDrive\Documents\GitHub\Todo\ToDo.ServiceDefaults\obj\Debug\net9.0\ToDo.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Users\mjnso\OneDrive\Documents\GitHub\Todo\ToDo.ServiceDefaults\obj\Debug\net9.0\ToDo.ServiceDefaults.AssemblyInfo.cs
+C:\Users\mjnso\OneDrive\Documents\GitHub\Todo\ToDo.ServiceDefaults\obj\Debug\net9.0\ToDo.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Users\mjnso\OneDrive\Documents\GitHub\Todo\ToDo.ServiceDefaults\obj\Debug\net9.0\ToDo.ServiceDefaults.sourcelink.json
+C:\Users\mjnso\OneDrive\Documents\GitHub\Todo\ToDo.ServiceDefaults\obj\Debug\net9.0\ToDo.ServiceDefaults.dll
+C:\Users\mjnso\OneDrive\Documents\GitHub\Todo\ToDo.ServiceDefaults\obj\Debug\net9.0\refint\ToDo.ServiceDefaults.dll
+C:\Users\mjnso\OneDrive\Documents\GitHub\Todo\ToDo.ServiceDefaults\obj\Debug\net9.0\ToDo.ServiceDefaults.pdb
+C:\Users\mjnso\OneDrive\Documents\GitHub\Todo\ToDo.ServiceDefaults\obj\Debug\net9.0\ref\ToDo.ServiceDefaults.dll

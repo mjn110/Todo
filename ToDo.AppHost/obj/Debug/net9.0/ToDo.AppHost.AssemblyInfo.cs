@@ -18,14 +18,14 @@ using System.Reflection;
     "xt\\")]
 [assembly: System.Reflection.AssemblyMetadata("dcpbinpath", "C:\\Users\\mjnso\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.0.0\\tools\\e" +
     "xt\\bin\\")]
-[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "C:\\Users\\mjnso\\source\\repos\\ToDo\\ToDo.AppHost")]
+[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.AppHost")]
 [assembly: System.Reflection.AssemblyMetadata("apphostprojectname", "ToDo.AppHost.csproj")]
 [assembly: System.Reflection.AssemblyMetadata("aspiredashboardpath", "C:\\Users\\mjnso\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\9.0.0\\tools\\Aspire.Da" +
     "shboard.exe")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("ToDo.AppHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+378349a2bcbb09f7bd251181f0897891664a4287")]
 [assembly: System.Reflection.AssemblyProductAttribute("ToDo.AppHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ToDo.AppHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -8,5 +8,5 @@ namespace Projects;
 public class ToDo_AppHost
 {
     private ToDo_AppHost() { }
-    public static string ProjectPath => """C:\Users\mjnso\source\repos\ToDo\ToDo.AppHost""";
+    public static string ProjectPath => """C:\Users\mjnso\OneDrive\Documents\GitHub\Todo\ToDo.AppHost""";
 }

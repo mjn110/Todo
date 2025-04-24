@@ -1,0 +1,2 @@
+C:\Users\mjnso\OneDrive\Documents\GitHub\Todo\ToDo.Components\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\mjnso\OneDrive\Documents\GitHub\Todo\ToDo.Components\obj\Debug\net9.0\staticwebassets.build.json

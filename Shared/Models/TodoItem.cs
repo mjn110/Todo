@@ -1,4 +1,4 @@
-﻿namespace Shared.Models
+﻿namespace Todo.Shared.Models
 {
     public class TodoItem
     {

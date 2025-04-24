@@ -1,0 +1,79 @@
+﻿@page "/"
+@using ToDo.Shared.Interfaces
+@using ToDo.Shared.Wrappers
+@using global::Todo.Shared.Models
+@inject TodoApi _todoApi
+@* @rendermode @(new InteractiveServerRenderMode(prerender:true)) *@
+
+<div class="container w-100">
+    <h1 class="text-center fw-bolder mb-3 mb-md-5 mt-md-3">Todo</h1>
+
+    <EditForm Model="newItem" OnValidSubmit="AddTodo">
+        <div class="input-group mb-3">
+            <InputText id="name" @bind-value="newItem.Name" class="form-control" placeholder="New task" />
+            <button type="submit" class="btn btn-primary p-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                </svg>
+            </button>
+        </div>
+    </EditForm>
+
+    @foreach (var item in items)
+    {
+        <div class="input-group mb-3">
+            <div class="input-group-text">
+                <input class="form-check-input p-3 m-0 rounded-3" @onchange="(()=> UpdateTask(item.Id))" type="checkbox" name="item-@item.Id" checked="@item.IsCompleted">
+            </div>
+
+            <label class="form-control align-middle d-flex align-items-center" aria-label="Example text with button addon" aria-describedby="button-addon1">@item.Name</label>
+
+            <button class="btn btn-danger p-3" @onclick="(() => DeleteTodo(item.Id))" type="button" id="button-addon1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+                    <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0" />
+                </svg>
+            </button>
+        </div>
+    }
+</div>
+@code {
+    public List<TodoItem> items { get; set; } = new();
+    public TodoInput newItem { get; set; } = new();
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Refresh();
+    }
+
+    public async Task AddTodo()
+    {
+        if (newItem.Name != null)
+        {
+            await _todoApi.AddTask(newItem.Name);
+            items = await _todoApi.GetTasks();
+        }
+    }
+
+    public async Task UpdateTask(int id)
+    {
+        var result = await _todoApi.UpdateTask(id);
+        await Refresh();
+    }
+
+    public async Task DeleteTodo(int id)
+    {
+        var result = await _todoApi.DeleteTask(id);
+        await Refresh();
+    }
+
+    public class TodoInput
+    {
+        public string? Name { get; set; }
+    }
+
+    public async Task Refresh()
+    {
+        items = await _todoApi.GetTasks();
+    }
+}

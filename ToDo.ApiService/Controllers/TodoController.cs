@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Shared.Models;
+using Todo.Shared.Models;
 using ToDo.ApiService.Services;
+using ToDo.Shared.Interfaces;
 
 namespace ToDo.ApiService.Controllers
 {
@@ -9,8 +10,8 @@ namespace ToDo.ApiService.Controllers
     [ApiController]
     public class TodoController : ControllerBase
     {
-        private readonly TodoService _todoService;
-        public TodoController(TodoService todoService)
+        private readonly ITodoService _todoService;
+        public TodoController(ITodoService todoService)
         {
             _todoService = todoService;
         }
@@ -34,11 +35,33 @@ namespace ToDo.ApiService.Controllers
         }
 
         [HttpPost]
-        public ActionResult Add([FromBody] string name)
+        public ActionResult Post([FromBody] string name)
         {
             return _todoService.AddTask(name) is TodoItem newItem
                 ? CreatedAtAction(nameof(Get), new { id = newItem.Id }, newItem)
                 : BadRequest("Failed to add task.");
+        }
+
+        [HttpPut]
+        public ActionResult Put([FromBody] int id)
+        {
+            var updatedItem = _todoService.UpdateTask(id);
+            if (updatedItem == null)
+            {
+                return NotFound();
+            }
+            return Ok(updatedItem);
+        }
+
+        [HttpDelete("{id}")]
+        public ActionResult Delete(int id)
+        {
+            var deleted = _todoService.DeleteTask(id);
+            if (deleted)
+            {
+                return NoContent();
+            }
+            return NotFound();
         }
     }
 }

@@ -7,5 +7,5 @@ namespace Projects;
 [global::System.Diagnostics.DebuggerDisplay("Type = {GetType().Name,nq}, ProjectPath = {ProjectPath}")]
 public class ToDo_Web : global::Aspire.Hosting.IProjectMetadata
 {
-    public string ProjectPath => """C:\Users\mjnso\source\repos\ToDo\ToDo.Web\ToDo.Web.csproj""";
+    public string ProjectPath => """C:\Users\mjnso\OneDrive\Documents\GitHub\Todo\ToDo.Web\ToDo.Web.csproj""";
 }

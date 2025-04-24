@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.Mobile\\obj\\Debug\\net9.0-maccatalyst\\maccatalyst-x64\\scopedcss\\bundle\\ToDo.Mobile.styles.css",
+      "PackagePath": "staticwebassets\\ToDo.Mobile.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.Mobile\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.Mobile\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.Mobile\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.Mobile\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-maccatalyst\\maccatalyst-x64\\staticwebassets\\msbuild.ToDo.Mobile.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-maccatalyst\\maccatalyst-x64\\staticwebassets\\msbuild.ToDo.Mobile.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-maccatalyst\\maccatalyst-x64\\staticwebassets\\msbuild.build.ToDo.Mobile.props",
+      "PackagePath": "build\\ToDo.Mobile.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-maccatalyst\\maccatalyst-x64\\staticwebassets\\msbuild.buildMultiTargeting.ToDo.Mobile.props",
+      "PackagePath": "buildMultiTargeting\\ToDo.Mobile.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-maccatalyst\\maccatalyst-x64\\staticwebassets\\msbuild.buildTransitive.ToDo.Mobile.props",
+      "PackagePath": "buildTransitive\\ToDo.Mobile.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

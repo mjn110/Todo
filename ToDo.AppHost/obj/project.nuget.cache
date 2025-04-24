@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pyZMaBfU4eg=",
+  "dgSpecHash": "2GUsNHREnw4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mjnso\\source\\repos\\ToDo\\ToDo.AppHost\\ToDo.AppHost.csproj",
+  "projectFilePath": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.AppHost\\ToDo.AppHost.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mjnso\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\9.0.0\\aspire.dashboard.sdk.win-x64.9.0.0.nupkg.sha512",
     "C:\\Users\\mjnso\\.nuget\\packages\\aspire.hosting\\9.0.0\\aspire.hosting.9.0.0.nupkg.sha512",

@@ -1,0 +1,465 @@
+{
+  "Version": 1,
+  "Hash": "BZ4Je5A/Y1BsPezXaATmz8c5f9sjcgcbu7ch4xOUtm8=",
+  "Source": "ToDo.Components",
+  "BasePath": "_content/ToDo.Components",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ToDo.Components\\wwwroot",
+      "Source": "ToDo.Components",
+      "ContentRoot": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.Components\\wwwroot\\",
+      "BasePath": "_content/ToDo.Components",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.Components\\obj\\Debug\\net9.0\\compressed\\6fxof1ic9z-6pqz8bsss0.gz",
+      "SourceId": "ToDo.Components",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.Components\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/ToDo.Components",
+      "RelativePath": "exampleJsInterop#[.{fingerprint=6pqz8bsss0}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.Components\\wwwroot\\exampleJsInterop.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "vrr7rs2wfg",
+      "Integrity": "W5OYF2QMLswqQgt4f7ObfRYIFziQJY1EpIyGrVpg/uA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.Components\\wwwroot\\exampleJsInterop.js"
+    },
+    {
+      "Identity": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.Components\\wwwroot\\background.png",
+      "SourceId": "ToDo.Components",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.Components\\wwwroot\\",
+      "BasePath": "_content/ToDo.Components",
+      "RelativePath": "background#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x2rx4ajns0",
+      "Integrity": "WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\background.png"
+    },
+    {
+      "Identity": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.Components\\wwwroot\\exampleJsInterop.js",
+      "SourceId": "ToDo.Components",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.Components\\wwwroot\\",
+      "BasePath": "_content/ToDo.Components",
+      "RelativePath": "exampleJsInterop#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6pqz8bsss0",
+      "Integrity": "FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "background.png",
+      "AssetFile": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.Components\\wwwroot\\background.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "378"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 19:07:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY="
+        }
+      ]
+    },
+    {
+      "Route": "background.x2rx4ajns0.png",
+      "AssetFile": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.Components\\wwwroot\\background.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "378"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 19:07:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x2rx4ajns0"
+        },
+        {
+          "Name": "label",
+          "Value": "background.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WeOKCkI7IdJHs2kCqsKgLfiWX4/sNPbaRUspOLefkCY="
+        }
+      ]
+    },
+    {
+      "Route": "exampleJsInterop.6pqz8bsss0.js",
+      "AssetFile": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.Components\\obj\\Debug\\net9.0\\compressed\\6fxof1ic9z-6pqz8bsss0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.005208333333"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "191"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W5OYF2QMLswqQgt4f7ObfRYIFziQJY1EpIyGrVpg/uA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 19:07:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6pqz8bsss0"
+        },
+        {
+          "Name": "label",
+          "Value": "exampleJsInterop.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4="
+        }
+      ]
+    },
+    {
+      "Route": "exampleJsInterop.6pqz8bsss0.js",
+      "AssetFile": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.Components\\wwwroot\\exampleJsInterop.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "247"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 19:07:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6pqz8bsss0"
+        },
+        {
+          "Name": "label",
+          "Value": "exampleJsInterop.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4="
+        }
+      ]
+    },
+    {
+      "Route": "exampleJsInterop.6pqz8bsss0.js.gz",
+      "AssetFile": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.Components\\obj\\Debug\\net9.0\\compressed\\6fxof1ic9z-6pqz8bsss0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "191"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W5OYF2QMLswqQgt4f7ObfRYIFziQJY1EpIyGrVpg/uA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 19:07:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6pqz8bsss0"
+        },
+        {
+          "Name": "label",
+          "Value": "exampleJsInterop.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-W5OYF2QMLswqQgt4f7ObfRYIFziQJY1EpIyGrVpg/uA="
+        }
+      ]
+    },
+    {
+      "Route": "exampleJsInterop.js",
+      "AssetFile": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.Components\\obj\\Debug\\net9.0\\compressed\\6fxof1ic9z-6pqz8bsss0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.005208333333"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "191"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W5OYF2QMLswqQgt4f7ObfRYIFziQJY1EpIyGrVpg/uA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 19:07:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4="
+        }
+      ]
+    },
+    {
+      "Route": "exampleJsInterop.js",
+      "AssetFile": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.Components\\wwwroot\\exampleJsInterop.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "247"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 19:07:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FrrTtczTUEHjkhc/zWRPC7CmxeXI0JCZGc1+76qQ8B4="
+        }
+      ]
+    },
+    {
+      "Route": "exampleJsInterop.js.gz",
+      "AssetFile": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.Components\\obj\\Debug\\net9.0\\compressed\\6fxof1ic9z-6pqz8bsss0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "191"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W5OYF2QMLswqQgt4f7ObfRYIFziQJY1EpIyGrVpg/uA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 23 Apr 2025 19:07:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-W5OYF2QMLswqQgt4f7ObfRYIFziQJY1EpIyGrVpg/uA="
+        }
+      ]
+    }
+  ]
+}

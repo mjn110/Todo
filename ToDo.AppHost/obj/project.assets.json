@@ -2907,11 +2907,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mjnso\\source\\repos\\ToDo\\ToDo.AppHost\\ToDo.AppHost.csproj",
+      "projectUniqueName": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.AppHost\\ToDo.AppHost.csproj",
       "projectName": "ToDo.AppHost",
-      "projectPath": "C:\\Users\\mjnso\\source\\repos\\ToDo\\ToDo.AppHost\\ToDo.AppHost.csproj",
+      "projectPath": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.AppHost\\ToDo.AppHost.csproj",
       "packagesPath": "C:\\Users\\mjnso\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mjnso\\source\\repos\\ToDo\\ToDo.AppHost\\obj\\",
+      "outputPath": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.AppHost\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

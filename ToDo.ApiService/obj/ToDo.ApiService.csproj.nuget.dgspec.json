@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mjnso\\source\\repos\\ToDo\\ToDo.ApiService\\ToDo.ApiService.csproj": {}
+    "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.ApiService\\ToDo.ApiService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mjnso\\source\\repos\\ToDo\\Shared\\Shared.csproj": {
+    "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\Shared\\Todo.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mjnso\\source\\repos\\ToDo\\Shared\\Shared.csproj",
-        "projectName": "Shared",
-        "projectPath": "C:\\Users\\mjnso\\source\\repos\\ToDo\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\Shared\\Todo.Shared.csproj",
+        "projectName": "Todo.Shared",
+        "projectPath": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\Shared\\Todo.Shared.csproj",
         "packagesPath": "C:\\Users\\mjnso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mjnso\\source\\repos\\ToDo\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\Users\\mjnso\\source\\repos\\ToDo\\ToDo.ApiService\\ToDo.ApiService.csproj": {
+    "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.ApiService\\ToDo.ApiService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mjnso\\source\\repos\\ToDo\\ToDo.ApiService\\ToDo.ApiService.csproj",
+        "projectUniqueName": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.ApiService\\ToDo.ApiService.csproj",
         "projectName": "ToDo.ApiService",
-        "projectPath": "C:\\Users\\mjnso\\source\\repos\\ToDo\\ToDo.ApiService\\ToDo.ApiService.csproj",
+        "projectPath": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.ApiService\\ToDo.ApiService.csproj",
         "packagesPath": "C:\\Users\\mjnso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mjnso\\source\\repos\\ToDo\\ToDo.ApiService\\obj\\",
+        "outputPath": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.ApiService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -99,11 +99,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\mjnso\\source\\repos\\ToDo\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\mjnso\\source\\repos\\ToDo\\Shared\\Shared.csproj"
+              "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\Shared\\Todo.Shared.csproj": {
+                "projectPath": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\Shared\\Todo.Shared.csproj"
               },
-              "C:\\Users\\mjnso\\source\\repos\\ToDo\\ToDo.ServiceDefaults\\ToDo.ServiceDefaults.csproj": {
-                "projectPath": "C:\\Users\\mjnso\\source\\repos\\ToDo\\ToDo.ServiceDefaults\\ToDo.ServiceDefaults.csproj"
+              "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.ServiceDefaults\\ToDo.ServiceDefaults.csproj": {
+                "projectPath": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.ServiceDefaults\\ToDo.ServiceDefaults.csproj"
               }
             }
           }
@@ -152,14 +152,14 @@
         }
       }
     },
-    "C:\\Users\\mjnso\\source\\repos\\ToDo\\ToDo.ServiceDefaults\\ToDo.ServiceDefaults.csproj": {
+    "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.ServiceDefaults\\ToDo.ServiceDefaults.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mjnso\\source\\repos\\ToDo\\ToDo.ServiceDefaults\\ToDo.ServiceDefaults.csproj",
+        "projectUniqueName": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.ServiceDefaults\\ToDo.ServiceDefaults.csproj",
         "projectName": "ToDo.ServiceDefaults",
-        "projectPath": "C:\\Users\\mjnso\\source\\repos\\ToDo\\ToDo.ServiceDefaults\\ToDo.ServiceDefaults.csproj",
+        "projectPath": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.ServiceDefaults\\ToDo.ServiceDefaults.csproj",
         "packagesPath": "C:\\Users\\mjnso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mjnso\\source\\repos\\ToDo\\ToDo.ServiceDefaults\\obj\\",
+        "outputPath": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.ServiceDefaults\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

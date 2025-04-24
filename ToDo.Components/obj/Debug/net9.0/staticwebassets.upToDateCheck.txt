@@ -1,0 +1,3 @@
+C:\Users\mjnso\OneDrive\Documents\GitHub\Todo\ToDo.Components\wwwroot\exampleJsInterop.js
+wwwroot\background.png
+wwwroot\exampleJsInterop.js

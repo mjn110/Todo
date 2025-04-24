@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Shared.Models.TodoItem, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[Todo.Shared.Models.TodoItem, Todo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -21,7 +21,7 @@
   },
   {
     "ContainingType": "ToDo.ApiService.Controllers.TodoController",
-    "Method": "Add",
+    "Method": "Post",
     "RelativePath": "api/Todo",
     "HttpMethod": "POST",
     "IsController": true,
@@ -30,6 +30,22 @@
       {
         "Name": "name",
         "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ToDo.ApiService.Controllers.TodoController",
+    "Method": "Put",
+    "RelativePath": "api/Todo",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -51,7 +67,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Shared.Models.TodoItem",
+        "Type": "Todo.Shared.Models.TodoItem",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -60,6 +76,22 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "ToDo.ApiService.Controllers.TodoController",
+    "Method": "Delete",
+    "RelativePath": "api/Todo/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Program\u002B\u003C\u003Ec__DisplayClass0_0",

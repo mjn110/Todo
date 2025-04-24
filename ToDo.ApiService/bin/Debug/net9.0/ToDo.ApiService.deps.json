@@ -9,8 +9,8 @@
       "ToDo.ApiService/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": "9.0.0",
-          "Shared": "1.0.0",
-          "ToDo.ServiceDefaults": "1.0.0"
+          "ToDo.ServiceDefaults": "1.0.0",
+          "Todo.Shared": "1.0.0"
         },
         "runtime": {
           "ToDo.ApiService.dll": {}
@@ -476,14 +476,6 @@
       "System.Diagnostics.DiagnosticSource/8.0.0": {},
       "System.Memory/4.5.3": {},
       "System.Threading.RateLimiting/8.0.0": {},
-      "Shared/1.0.0": {
-        "runtime": {
-          "Shared.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "ToDo.ServiceDefaults/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Http.Resilience": "9.0.0",
@@ -496,6 +488,14 @@
         },
         "runtime": {
           "ToDo.ServiceDefaults.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Todo.Shared/1.0.0": {
+        "runtime": {
+          "Todo.Shared.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -859,12 +859,12 @@
       "path": "system.threading.ratelimiting/8.0.0",
       "hashPath": "system.threading.ratelimiting.8.0.0.nupkg.sha512"
     },
-    "Shared/1.0.0": {
+    "ToDo.ServiceDefaults/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "ToDo.ServiceDefaults/1.0.0": {
+    "Todo.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

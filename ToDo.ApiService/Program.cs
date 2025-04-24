@@ -1,4 +1,6 @@
-﻿using ToDo.ApiService.Services;
+﻿using ToDo.ApiService.Repositories;
+using ToDo.ApiService.Services;
+using ToDo.Shared.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,7 +13,8 @@ builder.Services.AddProblemDetails();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
-builder.Services.AddSingleton<TodoService>();
+builder.Services.AddSingleton<ITodoService, TodoService>();
+builder.Services.AddSingleton<ITodoRepository, TodoRepository>();
 builder.Services.AddControllers();
 
 var app = builder.Build();

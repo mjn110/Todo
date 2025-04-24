@@ -7,5 +7,5 @@ namespace Projects;
 [global::System.Diagnostics.DebuggerDisplay("Type = {GetType().Name,nq}, ProjectPath = {ProjectPath}")]
 public class ToDo_ApiService : global::Aspire.Hosting.IProjectMetadata
 {
-    public string ProjectPath => """C:\Users\mjnso\source\repos\ToDo\ToDo.ApiService\ToDo.ApiService.csproj""";
+    public string ProjectPath => """C:\Users\mjnso\OneDrive\Documents\GitHub\Todo\ToDo.ApiService\ToDo.ApiService.csproj""";
 }

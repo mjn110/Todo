@@ -926,16 +926,6 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Shared/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "compile": {
-          "bin/placeholder/Shared.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Shared.dll": {}
-        }
-      },
       "ToDo.ServiceDefaults/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -957,6 +947,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Todo.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Todo.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Todo.Shared.dll": {}
+        }
       }
     }
   },
@@ -2235,22 +2235,22 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Shared/1.0.0": {
-      "type": "project",
-      "path": "../Shared/Shared.csproj",
-      "msbuildProject": "../Shared/Shared.csproj"
-    },
     "ToDo.ServiceDefaults/1.0.0": {
       "type": "project",
       "path": "../ToDo.ServiceDefaults/ToDo.ServiceDefaults.csproj",
       "msbuildProject": "../ToDo.ServiceDefaults/ToDo.ServiceDefaults.csproj"
+    },
+    "Todo.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Shared/Todo.Shared.csproj",
+      "msbuildProject": "../Shared/Todo.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "Microsoft.AspNetCore.OpenApi >= 9.0.0",
-      "Shared >= 1.0.0",
-      "ToDo.ServiceDefaults >= 1.0.0"
+      "ToDo.ServiceDefaults >= 1.0.0",
+      "Todo.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2260,11 +2260,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mjnso\\source\\repos\\ToDo\\ToDo.ApiService\\ToDo.ApiService.csproj",
+      "projectUniqueName": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.ApiService\\ToDo.ApiService.csproj",
       "projectName": "ToDo.ApiService",
-      "projectPath": "C:\\Users\\mjnso\\source\\repos\\ToDo\\ToDo.ApiService\\ToDo.ApiService.csproj",
+      "projectPath": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.ApiService\\ToDo.ApiService.csproj",
       "packagesPath": "C:\\Users\\mjnso\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mjnso\\source\\repos\\ToDo\\ToDo.ApiService\\obj\\",
+      "outputPath": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.ApiService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2286,11 +2286,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\mjnso\\source\\repos\\ToDo\\Shared\\Shared.csproj": {
-              "projectPath": "C:\\Users\\mjnso\\source\\repos\\ToDo\\Shared\\Shared.csproj"
+            "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\Shared\\Todo.Shared.csproj": {
+              "projectPath": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\Shared\\Todo.Shared.csproj"
             },
-            "C:\\Users\\mjnso\\source\\repos\\ToDo\\ToDo.ServiceDefaults\\ToDo.ServiceDefaults.csproj": {
-              "projectPath": "C:\\Users\\mjnso\\source\\repos\\ToDo\\ToDo.ServiceDefaults\\ToDo.ServiceDefaults.csproj"
+            "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.ServiceDefaults\\ToDo.ServiceDefaults.csproj": {
+              "projectPath": "C:\\Users\\mjnso\\OneDrive\\Documents\\GitHub\\Todo\\ToDo.ServiceDefaults\\ToDo.ServiceDefaults.csproj"
             }
           }
         }

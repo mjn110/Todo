@@ -1,0 +1,8 @@
+C:\Users\mjnso\OneDrive\Documents\GitHub\Todo\ToDo.Mobile\wwwroot\css\bootstrap\bootstrap.min.css.map
+C:\Users\mjnso\OneDrive\Documents\GitHub\Todo\ToDo.Mobile\wwwroot\css\bootstrap\bootstrap.min.css
+C:\Users\mjnso\OneDrive\Documents\GitHub\Todo\ToDo.Mobile\wwwroot\index.html
+C:\Users\mjnso\OneDrive\Documents\GitHub\Todo\ToDo.Mobile\wwwroot\css\app.css
+wwwroot\css\app.css
+wwwroot\css\bootstrap\bootstrap.min.css
+wwwroot\css\bootstrap\bootstrap.min.css.map
+wwwroot\index.html
